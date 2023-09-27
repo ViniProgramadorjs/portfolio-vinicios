@@ -1,0 +1,115 @@
+:root {
+    --cor-primaria:#22D4FD;
+    --cor-secundaria:#F6F6F6;
+    --font-primaria: 'Montserrat', sans-serif;
+    --font-secundaria: 'Krona One', sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+.a__h1 {
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+a:hover {
+    color: #ecacac;
+}
+
+.titulo {
+    color: var(--cor-primaria);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4em;
+    font-size: 23px;
+    font-family: var(--font-primaria);
+}
+
+
+
+.titulo__principal {
+    display: flex;
+    justify-content: center;
+    color: var(--cor-secundaria);
+    font-size: 36px;
+    font-family: var(--font-secundaria);
+    padding: 4em 4em 0 3em;
+}
+
+
+strong {
+    color: var(--cor-primaria);
+}
+
+.apresentacao {
+    color: var(--cor-secundaria);
+    font-family: var(--font-primaria);
+    font-size: 24px;
+    padding: 1em 0 0 0;
+}
+
+.img__vini {
+    width: 255px;
+    height: 570px;
+}
+
+.projetos {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 3em;
+}
+
+.projeto__t {
+    margin: 1em;
+    font-family: var(--font-primaria);
+}
+
+.listas {
+    color: var(--cor-secundaria);
+    font-family:  var(--font-secundaria);
+    font-size: 24px;
+    text-align: center;
+    padding-top: 3em;
+
+}
+
+.strong__lista {
+    color: var(--cor-secundaria);
+}
+
+ .git {
+    margin: 1em;
+    font-family: var(--font-primaria);
+    /* border: solid; */
+    border-color: var(--cor-primaria);
+    
+}
+
+.linkedin {
+    margin: 1em;
+    font-family: var(--font-primaria);
+} 
+
+.rodape__descricao {
+    background-color: var(--cor-primaria);
+    color: #000000;
+    text-align: center;
+    padding: 0.8em;
+    
+}
+
+
+
+
+
+
+
+
+
